@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   color:cornflowerblue; background-color:darkslategray ;
   margin: 1rem;
