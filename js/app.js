@@ -44,9 +44,10 @@ if (quest3 === 'yes' || quest3 === 'y') {
 let quest4 = prompt('Do I amuse you?');
 
 if (quest4 === 'yes' || quest4 === 'y') {
-  alert('... Good! Haha I was just pullin your leg!');
+  alert('... Good! Haha Cause I was just pullin your leg this whole time!');
 } else if (quest4 === 'no' || quest4 === 'n') {
-  alert('Well that\'s too bad! I was merely jokin around! Haha');
+  alert('I don\'t amuse you??? Well that\'s too bad... cause I was merely jokin around! Haha');
 }
 
-alert('Thank\'s for being a good sport!')
+alert('Thank\'s for being a good sport ' + yourName +'!');
+console.log(yourName);

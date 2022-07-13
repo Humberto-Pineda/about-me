@@ -5,5 +5,11 @@ h1 {
 }
 
 main {
-  font-size: 1rem;
+  font-size: 2rem;
+  background-color: darkgrey;
 }
+
+footer {
+  color: white; background-color: darkslategrey;
+}
+
