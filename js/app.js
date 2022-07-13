@@ -1,17 +1,17 @@
 'use strict';
 
-alert('Hey eh, how you doing?');
+alert('Oi! How you doin?');
 
-let yourName = prompt('I go by Bert. Whats your name?');
+let yourName = prompt('I goes by Bert. What\'s your name?');
 console.log(yourName);
 
-let playGame = prompt(yourName + '? Well it\'s nice to meet you. I\'d like to play a game! Would you care to indulge me?').toLocaleLowerCase();
+let playGame = prompt(yourName + '? Well it\'s nice to meet ya. I wanna play a lil game. A yes or no game. Play along? Waddaya say? Y or N').toLocaleLowerCase();
 console.log(playGame);
 
 if (playGame === 'yes' || playGame === 'y') {
-  alert('Excellent. Lets begin!');
+  alert('That\'s actually the correct answer. We already started!');
 } else if (playGame === 'no' || playGame === 'n') {
-  alert('C\'mon, it\'ll be quick, I promise. Let\'s start.');
+  alert('That\'s the wrong answer. You didn\'t have a choice, heh heh. Let\'s start.');
 }
 
 let quest1 = prompt('Was I, in fact, born yesterday?');
@@ -41,11 +41,12 @@ if (quest3 === 'yes' || quest3 === 'y') {
   alert('Correct! Next Question');
 }
 
-let quest4 = prompt('Do i amuse you?');
+let quest4 = prompt('Do I amuse you?');
 
 if (quest4 === 'yes' || quest4 === 'y') {
-  alert('Wrong! Next Question.');
+  alert('... Good! Haha I was just pullin your leg!');
 } else if (quest4 === 'no' || quest4 === 'n') {
-  alert('Correct! Next Question');
+  alert('Well that\'s too bad! I was merely jokin around! Haha');
 }
 
+alert('Thank\'s for being a good sport!')
