@@ -43,14 +43,17 @@ function schmuckTo() {
 }
 schmuckTo();
 
-let quest3 = prompt('Am I a clown?').toLowerCase();
-console.log(quest3);
+function amClown() {
+  let quest3 = prompt('Am I a clown?').toLowerCase();
+  console.log(quest3);
 
-if (quest3 === 'yes' || quest3 === 'y') {
-  alert('Wrong! Next Question.');
-} else if (quest3 === 'no' || quest3 === 'n') {
-  alert('Correct! Next Question');
+  if (quest3 === 'yes' || quest3 === 'y') {
+    alert('Wrong! Next Question.');
+  } else if (quest3 === 'no' || quest3 === 'n') {
+    alert('Correct! Next Question');
+  }
 }
+amClown();
 
 let quest4 = prompt('Do I amuse you?').toLowerCase();
 
