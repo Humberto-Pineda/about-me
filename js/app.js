@@ -1,12 +1,12 @@
 'use strict';
 
-alert('Oi! How you doin?');
+// alert('Oi! How you doin?');
 
 function yourName() {
   let yourName = prompt('I goes by Bert. What\'s your name?');
   console.log(yourName);
 }
-yourName();
+// yourName();
 
 function littleGame() {
   let playGame = prompt(yourName + '? Well it\'s nice to meet ya. I wanna play a lil game. A yes or no game. Play along? Waddaya say? Y or N').toLowerCase();
@@ -17,16 +17,19 @@ function littleGame() {
     alert('That\'s the wrong answer. You didn\'t have a choice, heh heh. Let\'s start.');
   }
 }
-littleGame();
+// littleGame();
 
-let quest1 = prompt('Was I, in fact, born yesterday?').toLowerCase();
-console.log(quest1);
+function bornYes() {
+  let quest1 = prompt('Was I, in fact, born yesterday?').toLowerCase();
+  console.log(quest1);
 
-if (quest1 === 'yes' || quest1 === 'y') {
-  alert('Wrong! Next Question.');
-} else if (quest1 === 'no' || quest1 === 'n') {
-  alert('Correct! Next Question');
+  if (quest1 === 'yes' || quest1 === 'y') {
+    alert('Wrong! Next Question.');
+  } else if (quest1 === 'no' || quest1 === 'n') {
+    alert('Correct! Next Question');
+  }
 }
+bornYes();
 
 let quest2 = prompt('Do I, in fact, look like a shmuck to you?').toLowerCase();
 console.log(quest2);
