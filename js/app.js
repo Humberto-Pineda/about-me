@@ -31,14 +31,17 @@ function bornYes() {
 }
 bornYes();
 
-let quest2 = prompt('Do I, in fact, look like a shmuck to you?').toLowerCase();
-console.log(quest2);
+function schmuckTo() {
+  let quest2 = prompt('Do I, in fact, look like a shmuck to you?').toLowerCase();
+  console.log(quest2);
 
-if (quest2 === 'yes' || quest2 === 'y') {
-  alert('Wrong! Next Question.');
-} else if (quest2 === 'no' || quest2 === 'n') {
-  alert('Correct! Next Question');
+  if (quest2 === 'yes' || quest2 === 'y') {
+    alert('Wrong! Next Question.');
+  } else if (quest2 === 'no' || quest2 === 'n') {
+    alert('Correct! Next Question');
+  }
 }
+schmuckTo();
 
 let quest3 = prompt('Am I a clown?').toLowerCase();
 console.log(quest3);
