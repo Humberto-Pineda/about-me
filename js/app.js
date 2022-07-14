@@ -50,11 +50,12 @@
 // }
 
 // alert('I\'m having fun! Are you having fun? Let\'s keep going!');
+// alert('You\'ll have 4 guesses for this next question.');
 
 let guessLeft = 3;
 
 for (let i = guessLeft; i >= 0; i--) {
-  let guessName = prompt('How old am I between 30 and 35? You have 4 guesses.');
+  let guessName = prompt('How old am I between 30 and 35?');
   if (guessName === '31'){
     alert('Wow! You\'re pretty good at this!');
     break;
@@ -62,9 +63,7 @@ for (let i = guessLeft; i >= 0; i--) {
     alert('Nope! You\'re too low and have ' + i + ' guesses left!');
   } else if (guessName > '31'){
     alert('Nope! You\'re too high and have ' + i + ' guesses left!');
+  } if (i === 0){
+    alert('Game Over! Loser!');
   }
 }
-// console.log(guessName);
-
-// alert('Thank\'s for being a good sport ' + yourName +'!');
-// console.log(yourName);

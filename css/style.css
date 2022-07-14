@@ -28,6 +28,7 @@ main {
 
 footer {
   color: white; background-color: darkslategrey;
+  width: max-content;
 }
 
 div {
