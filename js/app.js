@@ -64,6 +64,6 @@ for (let i = guessLeft; i >= 0; i--) {
   } else if (guessName > '31'){
     alert('Nope! You\'re too high and have ' + i + ' guesses left!');
   } if (i === 0){
-    alert('Game Over! Loser!');
+    alert('I\'m 31. Game Over! Loser!');
   }
 }
