@@ -3,17 +3,41 @@
 }
 
 h1 {
-  color:cornflowerblue; background-color:darkslategray ;
+  color:rgb(255, 255, 255); background-color:darkslategray ;
   margin: 1rem;
+  font-size: 4rem;
+  width: max-content;
+  text-align: center;
+}
+body {
+  margin: 1rem;
+}
+
+h2 {
+  width: max-content;
   font-size: 3rem;
 }
 
-main {
+h3 {
   font-size: 2rem;
-  background-color: darkgrey;
+}
+
+main {
+  font-size: 1rem;
 }
 
 footer {
   color: white; background-color: darkslategrey;
 }
 
+div {
+  margin: 10px;
+  }
+
+ol {
+  list-style-type:decimal;
+}
+
+ul {
+  list-style-type: circle;
+}
