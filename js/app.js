@@ -55,13 +55,16 @@ function amClown() {
 }
 amClown();
 
-let quest4 = prompt('Do I amuse you?').toLowerCase();
+function amuseYou() {
+  let quest4 = prompt('Do I amuse you?').toLowerCase();
 
-if (quest4 === 'yes' || quest4 === 'y') {
-  alert('... Good! Haha Cause I was just pullin your leg this whole time!');
-} else if (quest4 === 'no' || quest4 === 'n') {
-  alert('I don\'t amuse you??? Well that\'s too bad... cause I was merely jokin around! Haha');
+  if (quest4 === 'yes' || quest4 === 'y') {
+    alert('... Good! Haha Cause I was just pullin your leg this whole time!');
+  } else if (quest4 === 'no' || quest4 === 'n') {
+    alert('I don\'t amuse you??? Well that\'s too bad... cause I was merely jokin around! Haha');
+  }
 }
+amuseYou();
 
 alert('I\'m having fun! Are you having fun? Let\'s keep going!');
 alert('You\'ll have 4 guesses for this next question.');
