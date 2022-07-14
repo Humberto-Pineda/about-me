@@ -1,15 +1,15 @@
 'use strict';
 
 alert('Oi! How you doin?');
-
+let userName;
 function yourName() {
-  let yourName = prompt('I goes by Bert. What\'s your name?');
+  userName = prompt('I goes by Bert. What\'s your name?');
   console.log(yourName);
 }
 yourName();
 
 function littleGame() {
-  let playGame = prompt(yourName + '? Well it\'s nice to meet ya. I wanna play a lil game. A yes or no game. Play along? Waddaya say? Y or N').toLowerCase();
+  let playGame = prompt(userName + '? Well it\'s nice to meet ya. I wanna play a lil game. A yes or no game. Play along? Waddaya say? Y or N').toLowerCase();
   console.log(playGame);
   if (playGame === 'yes' || playGame === 'y') {
     alert('That\'s actually the correct answer. We already started!');
