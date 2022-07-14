@@ -8,14 +8,16 @@ function yourName() {
 }
 yourName();
 
-let playGame = prompt(yourName + '? Well it\'s nice to meet ya. I wanna play a lil game. A yes or no game. Play along? Waddaya say? Y or N').toLowerCase();
-console.log(playGame);
-
-if (playGame === 'yes' || playGame === 'y') {
-  alert('That\'s actually the correct answer. We already started!');
-} else if (playGame === 'no' || playGame === 'n') {
-  alert('That\'s the wrong answer. You didn\'t have a choice, heh heh. Let\'s start.');
+function littleGame() {
+  let playGame = prompt(yourName + '? Well it\'s nice to meet ya. I wanna play a lil game. A yes or no game. Play along? Waddaya say? Y or N').toLowerCase();
+  console.log(playGame);
+  if (playGame === 'yes' || playGame === 'y') {
+    alert('That\'s actually the correct answer. We already started!');
+  } else if (playGame === 'no' || playGame === 'n') {
+    alert('That\'s the wrong answer. You didn\'t have a choice, heh heh. Let\'s start.');
+  }
 }
+littleGame();
 
 let quest1 = prompt('Was I, in fact, born yesterday?').toLowerCase();
 console.log(quest1);
