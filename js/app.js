@@ -87,3 +87,21 @@ function guessAge() {
   }
 }
 guessAge();
+
+alert('Let\'s do one last question. You\'ll have 6 attempts. You\'ll also be able to see your choices. Good luck!');
+
+alert('Who is my favorite superhero?');
+
+let lastQ = ['Superman, Batman, Ironman, Spiderman, Wonder Woman, Omniman, Radioactive Man'];
+prompt(lastQ);
+// let lastA = ['Batman'];
+// let lastChance = 6;
+
+// for (let i = 0; i < lastQ.length; i++) {
+//   if (lastQ[i] === ['Batman']) {
+//     console.log('Someone has been paying attention');
+//   }
+//   else if (lastQ[i] !=='Batman') {
+//     console.log('...Are you... joking? Try harder...');
+//   }
+// }
