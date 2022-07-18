@@ -11,15 +11,21 @@ h1 {
 }
 body {
   margin: 1rem;
+  background-color: rgb(97, 145, 218);
 }
 
 h2 {
   width: max-content;
   font-size: 3rem;
+  color: white;
+  background-color: darkslategray;
 }
 
 h3 {
   font-size: 2rem;
+  color: white;
+  background-color: rgb(4, 79, 102);
+  width: max-content;
 }
 
 main {
@@ -33,12 +39,23 @@ footer {
 
 div {
   margin: 10px;
+  font-size: 20px;
   }
 
 ol {
   list-style-type:decimal;
+  width: 450px;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(4, 79, 102)
+
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
+  margin-left: 10px;
 }
+
+.background-image [
+  
+]
